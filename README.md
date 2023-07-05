@@ -1,34 +1,14 @@
-# BSPWM Setup and Theme for EndeavourOS
-**BSPWM EndeavorOS Community Edition**
-
+# BSPWM Setup and Theme for my Arch Linux Install
 
 ## To Install manually
 
-    git clone https://github.com/EndeavourOS-Community-Editions/bspwm.git
+    git clone https://github.com/willwillis/my-arch-bspwm-environment.git
 
-    cd bspwm
+    cd my-arch-bspwm-environment
 
     bash bspwm-install.sh
    
-## Contained In The Script
-    cp -R .config/* ~/.config/
-        
-    cp .gtkrc-2.0 ~/.gtkrc-2.0
-    
-    chmod -R +x ~/.config/bspwm/scripts
-        
-    yay -Syu --needed --noconfirm - < packages-repository.txt
-    
-## Get involved at our forum:
-https://forum.endeavouros.com/c/desktop-environments/bspwm/75
-
-## Tutorial for bspwm-wm settings:
-- Background handled by nitrogen
-- Gtk3 theme handled by lxappearance-gtk3
-- Filebrowser = Thunar
-- Default Terminal-Emulator = xfce4-terminal
-- Text-Editor = xed
-- Application Launcher = Rofi
-
+## Source / Inspiration / starting point
+EndeauvorOS BSPWM
 
 ![bspwm](https://raw.githubusercontent.com/EndeavourOS-Community-Editions/bspwm/main/bspwm.png)
