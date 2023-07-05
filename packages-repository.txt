@@ -16,6 +16,8 @@ firefox
 flameshot
 freerdp
 gtk-engine-murrine
+gtk-engine-murrine
+gtk-engines
 gtk-engines
 gvfs
 gvfs-afc
